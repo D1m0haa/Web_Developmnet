@@ -1,0 +1,19 @@
+.example {
+    position: relative;
+  }
+  .yellow-box {
+    position: relative;
+    z-index: 1;
+    background: yellow;
+    height: 8em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+  .right {
+    float: right;
+    margin-right: 0;
+  }
+  .leftt {
+    float: left;
+    margin-right: 0;
+  }

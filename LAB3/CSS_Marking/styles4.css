@@ -1,0 +1,8 @@
+.myDiv {
+    position: relative;
+    width: 400 px;
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    justify-content: center
+  }
