@@ -1,0 +1,20 @@
+#wrapper {
+	display: flex;
+}
+#sectionA {
+    width: 33%;
+    border: 1px solid #fe0303;
+    height: 600px;
+}
+
+#sectionB {
+    width: 33%;
+    border: 1px solid #7d01e9;
+    height: 600px;
+}
+
+#sectionC {
+    width: 33%;
+    height: 600px;
+    border: 1px solid #42b2e5;
+}

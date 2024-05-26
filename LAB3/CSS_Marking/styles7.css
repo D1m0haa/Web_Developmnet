@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+  
+.container {
+    display: flex;
+    height: 100vh;
+}
+  
+.container_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+  
+.sectionA {
+    flex: 1;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;  
+}
+
+.sectionB {
+    flex: 1;
+    background-color: green;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;      
+}
+  
+.sectionC {
+    flex: 1;
+    background-color: yellow;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;  
+}
+  
+.sectionD {
+    flex: 1;
+    background-color: pink;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;  
+}  
+
+.sectionE {
+    flex: 1;
+    background-color: orange;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;  
+}    
+  
+.sectionF {
+    flex: 1;
+    background-color: blue;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;  
+    color: aliceblue;
+}  
