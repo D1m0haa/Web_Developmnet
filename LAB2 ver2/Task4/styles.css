@@ -1,0 +1,20 @@
+body {
+    background-color: blue;
+}
+.body1 {
+    background-image:url("mosaic.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+}
+.ul_1 {
+    list-style-type: lower-latin;
+}
+.ul_2 {
+    list-style-type: square;
+}
+.ul_3 {
+    list-style-type: armenian;
+}
+.ul_4 {
+    list-style-type: none;
+}

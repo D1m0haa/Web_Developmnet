@@ -1,0 +1,20 @@
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:orange; left:0px; top:200px;}
+    50%  {background-color:brown; left:200px; top:200px;}
+    75%  {background-color:pink; left:200px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  div {
+    width: 300px;
+    height: 300px;
+    border-radius: 100% ;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 3s; /* задержка анимации */
+    animation-iteration-count: infinite; /* повтор анимации */
+  }

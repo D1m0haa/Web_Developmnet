@@ -1,0 +1,107 @@
+@keyframes example {
+	0% {
+		transform: translate(0, 0) rotate(0deg);
+		background-color: blue;
+	}
+	25% {
+		transform: translate(400px, 300px) rotate(90deg);
+		background-color: blueviolet;
+	}
+	50% {
+		transform: translate(700px, 12px) rotate(180deg);
+		background-color: lightblue;
+	}
+	75% {
+		transform: translate(434px, 700px) rotate(270deg);
+		background-color: pink;
+	}
+	100% {
+		transform: translate(0, 0) rotate(360deg);
+		background-color: red;
+	}
+}
+@keyframes example2 {
+	0% {
+		transform: translate(0, 0) rotate(0deg);
+		background-color: blue;
+	}
+	25% {
+		transform: translate(40px, 30px) rotate(90deg);
+		background-color: blueviolet;
+	}
+	50% {
+		transform: translate(70px, 2px) rotate(180deg);
+		background-color: lightblue;
+	}
+	75% {
+		transform: translate(43px, 70px) rotate(270deg);
+		background-color: pink;
+	}
+	100% {
+		transform: translate(10px, 0) rotate(360deg);
+		background-color: red;
+	}
+}
+
+#animated_div1 {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: black;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#animated_div2 {
+    border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: rgb(179, 92, 92);
+	animation-name: example2;
+	animation-duration: 4s;
+	animation-delay: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+#animated_div3 {
+    border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: rgb(160, 197, 221);
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+
+#animated_div4 {
+    border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: rgb(170, 64, 212);
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+
+#animated_div5 {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: rgb(250, 211, 84);
+	animation-name: example2;
+	animation-duration: 4s;
+	animation-delay: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
